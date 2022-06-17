@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Utkarsh's Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/e.png")
+                | HDA
+            li #[a(href='/home') Home ]
+            li #[a(href='/about') About ]
+            li #[a(href='/service') Services ]
+            li #[a(href='/class') Class Info ]
+            li #[a(href='/contact ') Contact Us ]
+    block content
+    //- block foot
+    footer#footer 
+        |Copyright Ⓒ 2022 UtkarshDanceAcademy.com | All rights reserved
